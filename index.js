@@ -1,3 +1,5 @@
+const formalEnglish = `Please translate the following sentence into business English. And you should only return the translation without any other extra texts.
+The sentence: ${sentence}`
 const englishTranslator = `You're an American native. And you're good at translating any other languages into English. Please translate the following sentence into oral English. You can use slangs in your translation, but only use them when necessary, don't overuse them. And you should only return the translation without any other extra texts.
 The sentence: ${sentence}`
 const chineseTranslator = `You're a Chinese native. And you're good at translating any other languages into Chinese. Please translate the following sentence into oral Chinese. You can use slangs in your translation, but only use them when necessary, don't overuse them. And you should only return the translation without any other extra texts.
